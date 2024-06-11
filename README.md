@@ -1,81 +1,77 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Open Source - Contribuição</title>
-</head>
-<body>
-    <h1>Projeto Open Source - Contribuição</h1>
-    <p>Bem-vindo ao projeto open source da plataforma DIO! Agradecemos seu interesse em contribuir. Este documento fornece diretrizes e informações necessárias para contribuir de forma eficaz ao projeto.</p>
+# Projeto Open Source - Contribuição
 
-    <h2>Sumário</h2>
-    <ol>
-        <li><a href="#visao-geral-do-projeto">Visão Geral do Projeto</a></li>
-        <li><a href="#como-contribuir">Como Contribuir</a></li>
-        <li><a href="#requisitos">Requisitos</a></li>
-        <li><a href="#instalacao">Instalação</a></li>
-        <li><a href="#reportando-problemas">Reportando Problemas</a></li>
-        <li><a href="#solicitacao-de-pull-request">Solicitação de Pull Request</a></li>
-        <li><a href="#codigo-de-conduta">Código de Conduta</a></li>
-        <li><a href="#licenca">Licença</a></li>
-    </ol>
+Bem-vindo ao projeto open source da plataforma DIO! Agradecemos seu interesse em contribuir. Este documento fornece diretrizes e informações necessárias para contribuir de forma eficaz ao projeto.
 
-    <h2 id="visao-geral-do-projeto">Visão Geral do Projeto</h2>
-    <p>Este projeto é uma iniciativa da plataforma DIO para criar uma solução colaborativa de [descrição do projeto]. Nosso objetivo é [objetivo do projeto].</p>
+## Sumário
+1. [Visão Geral do Projeto](#visão-geral-do-projeto)
+2. [Como Contribuir](#como-contribuir)
+3. [Requisitos](#requisitos)
+4. [Instalação](#instalação)
+5. [Reportando Problemas](#reportando-problemas)
+6. [Solicitação de Pull Request](#solicitação-de-pull-request)
+7. [Código de Conduta](#código-de-conduta)
+8. [Licença](#licença)
 
-    <h2 id="como-contribuir">Como Contribuir</h2>
-    <ol>
-        <li>Fork o repositório.</li>
-        <li>Crie uma branch para a sua contribuição (<code>git checkout -b minha-contribuição</code>).</li>
-        <li>Faça as modificações necessárias.</li>
-        <li>Commit suas mudanças (<code>git commit -m 'Descrição das mudanças'</code>).</li>
-        <li>Envie para o branch (<code>git push origin minha-contribuição</code>).</li>
-        <li>Abra um Pull Request.</li>
-    </ol>
+## Visão Geral do Projeto
 
-    <h2 id="requisitos">Requisitos</h2>
-    <ul>
-        <li>[Linguagens e frameworks necessários]</li>
-        <li>[Ferramentas de desenvolvimento]</li>
-        <li>[Outros requisitos]</li>
-    </ul>
+Este projeto é uma iniciativa da plataforma DIO para criar uma solução colaborativa de [descrição do projeto]. Nosso objetivo é [objetivo do projeto].
 
-    <h2 id="instalacao">Instalação</h2>
-    <p>Para clonar e executar este projeto, siga estas etapas:</p>
-    <ol>
-        <li>Clone o repositório:
-            <pre><code>git clone https://github.com/usuario/projeto.git</code></pre>
-        </li>
-        <li>Navegue até o diretório do projeto:
-            <pre><code>cd projeto</code></pre>
-        </li>
-        <li>Instale as dependências:
-            <pre><code>[comando de instalação]</code></pre>
-        </li>
-        <li>Execute o projeto:
-            <pre><code>[comando para executar o projeto]</code></pre>
-        </li>
-    </ol>
+## Como Contribuir
 
-    <h2 id="reportando-problemas">Reportando Problemas</h2>
-    <p>Se encontrar problemas ou tiver sugestões, por favor, abra uma <a href="https://github.com/usuario/projeto/issues">issue</a>.</p>
+1. Fork o repositório.
+2. Crie uma branch para a sua contribuição (`git checkout -b minha-contribuição`).
+3. Faça as modificações necessárias.
+4. Commit suas mudanças (`git commit -m 'Descrição das mudanças'`).
+5. Envie para o branch (`git push origin minha-contribuição`).
+6. Abra um Pull Request.
 
-    <h2 id="solicitacao-de-pull-request">Solicitação de Pull Request</h2>
-    <p>Para criar um Pull Request, certifique-se de que:</p>
-    <ul>
-        <li>Seu código está devidamente testado.</li>
-        <li>Todos os testes existentes passam com sucesso.</li>
-        <li>Seu código segue os padrões de estilo e melhores práticas do projeto.</li>
-    </ul>
+## Requisitos
 
-    <h2 id="codigo-de-conduta">Código de Conduta</h2>
-    <p>Este projeto adota o <a href="https://github.com/usuario/projeto/CODE_OF_CONDUCT.md">Código de Conduta</a> da DIO. Ao participar, você está aceitando seguir este código.</p>
+- [Linguagens e frameworks necessários]
+- [Ferramentas de desenvolvimento]
+- [Outros requisitos]
 
-    <h2 id="licenca">Licença</h2>
-    <p>Este projeto está licenciado sob a <a href="https://github.com/usuario/projeto/LICENSE">Licença MIT</a>.</p>
+## Instalação
 
-    <hr>
-    <p>Agradecemos por suas contribuições! Juntos, podemos fazer deste projeto algo incrível.</p>
-</body>
-</html>
+Para clonar e executar este projeto, siga estas etapas:
+
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/usuario/projeto.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```sh
+    cd projeto
+    ```
+3. Instale as dependências:
+    ```sh
+    [comando de instalação]
+    ```
+4. Execute o projeto:
+    ```sh
+    [comando para executar o projeto]
+    ```
+
+## Reportando Problemas
+
+Se encontrar problemas ou tiver sugestões, por favor, abra uma [issue](https://github.com/usuario/projeto/issues).
+
+## Solicitação de Pull Request
+
+Para criar um Pull Request, certifique-se de que:
+
+- Seu código está devidamente testado.
+- Todos os testes existentes passam com sucesso.
+- Seu código segue os padrões de estilo e melhores práticas do projeto.
+
+## Código de Conduta
+
+Este projeto adota o [Código de Conduta](https://github.com/usuario/projeto/CODE_OF_CONDUCT.md) da DIO. Ao participar, você está aceitando seguir este código.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](https://github.com/usuario/projeto/LICENSE).
+
+---
+
+Agradecemos por suas contribuições! Juntos, podemos fazer deste projeto algo incrível.
