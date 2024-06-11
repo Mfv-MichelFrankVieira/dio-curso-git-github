@@ -1,96 +1,81 @@
-<h1>
-    <a href="https://www.dio.me/">
-     <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
-    <span> Versionamento de Código com Git e GitHub</span>
-</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Open Source - Contribuição</title>
+</head>
+<body>
+    <h1>Projeto Open Source - Contribuição</h1>
+    <p>Bem-vindo ao projeto open source da plataforma DIO! Agradecemos seu interesse em contribuir. Este documento fornece diretrizes e informações necessárias para contribuir de forma eficaz ao projeto.</p>
 
-Repositório desenvolvido para fins educativos, com a disponibilização de materiais de apoio para o curso **Versionamento de Código com Git e GitHub** da [Digital Innovation One](https://www.dio.me/).
+    <h2>Sumário</h2>
+    <ol>
+        <li><a href="#visao-geral-do-projeto">Visão Geral do Projeto</a></li>
+        <li><a href="#como-contribuir">Como Contribuir</a></li>
+        <li><a href="#requisitos">Requisitos</a></li>
+        <li><a href="#instalacao">Instalação</a></li>
+        <li><a href="#reportando-problemas">Reportando Problemas</a></li>
+        <li><a href="#solicitacao-de-pull-request">Solicitação de Pull Request</a></li>
+        <li><a href="#codigo-de-conduta">Código de Conduta</a></li>
+        <li><a href="#licenca">Licença</a></li>
+    </ol>
 
-[![Link do Curso](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://web.dio.me/course/versionamento-de-codigo-com-git-e-github/learning/f3cbaa66-efbd-4c25-842e-2069c188c066) 
-[![Link do Curso](https://img.shields.io/badge/Acesse%20o%20Curso%20na%20Plataforma-E94D5F?style=for-the-badge)](https://web.dio.me/course/versionamento-de-codigo-com-git-e-github/learning/f3cbaa66-efbd-4c25-842e-2069c188c066) 
+    <h2 id="visao-geral-do-projeto">Visão Geral do Projeto</h2>
+    <p>Este projeto é uma iniciativa da plataforma DIO para criar uma solução colaborativa de [descrição do projeto]. Nosso objetivo é [objetivo do projeto].</p>
 
-## Objetivo
-Introduzir ao versionamento de código com Git e GitHub.
+    <h2 id="como-contribuir">Como Contribuir</h2>
+    <ol>
+        <li>Fork o repositório.</li>
+        <li>Crie uma branch para a sua contribuição (<code>git checkout -b minha-contribuição</code>).</li>
+        <li>Faça as modificações necessárias.</li>
+        <li>Commit suas mudanças (<code>git commit -m 'Descrição das mudanças'</code>).</li>
+        <li>Envie para o branch (<code>git push origin minha-contribuição</code>).</li>
+        <li>Abra um Pull Request.</li>
+    </ol>
 
-## Ferramentas
-[![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc) 
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
-<br>
+    <h2 id="requisitos">Requisitos</h2>
+    <ul>
+        <li>[Linguagens e frameworks necessários]</li>
+        <li>[Ferramentas de desenvolvimento]</li>
+        <li>[Outros requisitos]</li>
+    </ul>
 
-## Percurso
-<table>
-  <thead>
-    <tr align="left">
-      <th>Nº</th>
-      <th>Etapas</th>
-      <th>Materiais de Apoio</th>
-    </tr>
-  </thead>
-  <tbody align="left">
-    <tr>
-      <td>01</td>
-      <td>Visão Geral do Curso e Ferramentas</td>
-      <td align="center">
-        <a href="https://github.com/elidianaandrade/dio-curso-git-github/blob/main/materiais-de-apoio/01-visao-geral-do-curso-e-ferramentas.md">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>02</td>
-      <td>Instalação, Configuração e Autenticação</td>
-      <td align="center">
-        <a href="https://github.com/elidianaandrade/dio-curso-git-github/blob/main/materiais-de-apoio/02-instalacao-configuracao-e-autenticacao.md">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>03</td>
-      <td>Primeiros Passos com Git e GitHub</td>
-      <td align="center">
-        <a href="https://github.com/elidianaandrade/dio-curso-git-github/blob/main/materiais-de-apoio/03-primeiros-passos-com-git-e-github.md">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
-        </a>
-      </td>    
-    </tr>
-    <tr>
-      <td>04</td>
-      <td>Dicas e Materiais de Apoio</td>
-      <td align="center">
-        <a href="https://github.com/elidianaandrade/dio-curso-git-github/blob/main/materiais-de-apoio/04-dicas-e-materiais-de-apoio.md">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
-        </a>
-      </td>    
-    </tr>
-  </tbody>
-  <tfoot></tfoot>
-</table>
+    <h2 id="instalacao">Instalação</h2>
+    <p>Para clonar e executar este projeto, siga estas etapas:</p>
+    <ol>
+        <li>Clone o repositório:
+            <pre><code>git clone https://github.com/usuario/projeto.git</code></pre>
+        </li>
+        <li>Navegue até o diretório do projeto:
+            <pre><code>cd projeto</code></pre>
+        </li>
+        <li>Instale as dependências:
+            <pre><code>[comando de instalação]</code></pre>
+        </li>
+        <li>Execute o projeto:
+            <pre><code>[comando para executar o projeto]</code></pre>
+        </li>
+    </ol>
 
-## Instrutora
-<table>
-  <tr>
-    <td>
-      <img width="80px" align="center" src="https://avatars.githubusercontent.com/elidianaandrade"/>
-    </td>
-    <td align="left">
-      <a href="https://github.com/elidianaandrade">
-        <span><b>Elidiana Andrade</b></span>
-      </a>
-      <br>
-      <span>Desenvolvedora Front-end</span>
-    </td>
-  </tr>
-</table>
+    <h2 id="reportando-problemas">Reportando Problemas</h2>
+    <p>Se encontrar problemas ou tiver sugestões, por favor, abra uma <a href="https://github.com/usuario/projeto/issues">issue</a>.</p>
 
-## Referências
-- [GIT. Documentation](https://git-scm.com/doc)
-- [GITHUB. Documentation](https://docs.github.com/)
-- [GITHUB BLOG. February 28th DDoS Incident Report](https://github.blog/2018-03-01-ddos-incident-report/)
-- [GITHUB BLOG. February 28th DDoS Incident Report](https://github.blog/2018-03-01-ddos-incident-report/)
-- [GITHUB BLOG. Raising the bar for software security: GitHub 2FA begins March 13](https://github.blog/2023-03-09-raising-the-bar-for-software-security-github-2fa-begins-march-13/)
-- [GITHUB BLOG. Token authentication requirements for Git operations](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)
-- [MICROSOFT. Microsoft to acquire GitHub for $7.5 billion](https:/news.microsoft.com/2018/06/04/microsoft-to-acquire-github-for-7-5-billion/)
+    <h2 id="solicitacao-de-pull-request">Solicitação de Pull Request</h2>
+    <p>Para criar um Pull Request, certifique-se de que:</p>
+    <ul>
+        <li>Seu código está devidamente testado.</li>
+        <li>Todos os testes existentes passam com sucesso.</li>
+        <li>Seu código segue os padrões de estilo e melhores práticas do projeto.</li>
+    </ul>
 
-##
-<div align="center">Feito com 💙 por <a href="https://github.com/elidianaandrade">Eli</a>.</div>
+    <h2 id="codigo-de-conduta">Código de Conduta</h2>
+    <p>Este projeto adota o <a href="https://github.com/usuario/projeto/CODE_OF_CONDUCT.md">Código de Conduta</a> da DIO. Ao participar, você está aceitando seguir este código.</p>
+
+    <h2 id="licenca">Licença</h2>
+    <p>Este projeto está licenciado sob a <a href="https://github.com/usuario/projeto/LICENSE">Licença MIT</a>.</p>
+
+    <hr>
+    <p>Agradecemos por suas contribuições! Juntos, podemos fazer deste projeto algo incrível.</p>
+</body>
+</html>
